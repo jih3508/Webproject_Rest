@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<ul>
+          <li><a href="/Seoul.do">서울</a></li>
+          <li><a href="/Busan.do">부산</a></li>
+          <li><a href="/Daegu.do">대구</a></li>
+          <li><a href="/Incheon.do">인천</a></li>
+          <li><a href="/Gwangju.do">광주</a></li>
+          <li><a href="/Daejeon.do">대전</a></li>
+          <li><a href="/Ulsan.do">울산</a></li>
+          <li><a href="/Gyeonggido.do">경기도</a></li>
+          <li><a href="/Gangwondo.do">강원도</a></li>
+          <li><a href="/Chungcheongdo.do">충청도</a></li>
+          <li><a href="/Jeollado.do">전라도</a></li>
+          <li><a href="/Gyeongsangdo.do">경상도</a></li>
+          <li><a href="/Jejudo.do">제주도</a></li>         
+        </ul>
+    </div>
+</body>
+</html>

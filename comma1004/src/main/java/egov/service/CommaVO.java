@@ -1,0 +1,103 @@
+package egov.service;
+
+public class CommaVO {
+	/*회원*/
+	private String id;
+	private String pwd;
+	private String name;
+	private String email;
+	private String birthDay;
+	private int manager_no;
+	private int count;
+	/*게시판*/
+	private int b_code;
+	private String b_select;
+	private String b_title;
+	private String b_content;
+	private String b_id;
+	private String b_rdate;
+	
+	
+	
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getPwd() {
+		return pwd;
+	}
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public int getManager_no() {
+		return manager_no;
+	}
+	public void setManager_no(int manager_no) {
+		this.manager_no = manager_no;
+	}
+	public String getBirthDay() {
+		return birthDay;
+	}
+	public void setBirthDay(String birthDay) {
+		this.birthDay = birthDay;
+	}
+	
+	
+	public int getB_code() {
+		return b_code;
+	}
+	public void setB_code(int b_code) {
+		this.b_code = b_code;
+	}
+	public String getB_select() {
+		return b_select;
+	}
+	public void setB_select(String b_select) {
+		this.b_select = b_select;
+	}
+	public String getB_title() {
+		return b_title;
+	}
+	public void setB_title(String b_title) {
+		this.b_title = b_title;
+	}
+	public String getB_content() {
+		return b_content;
+	}
+	public void setB_content(String b_content) {
+		this.b_content = b_content;
+	}
+	public String getB_id() {
+		return b_id;
+	}
+	public void setB_id(String b_id) {
+		this.b_id = b_id;
+	}
+	public String getB_rdate() {
+		return b_rdate;
+	}
+	public void setB_rdate(String b_rdate) {
+		this.b_rdate = b_rdate;
+	}
+	
+}

@@ -1,0 +1,113 @@
+package egov.web;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
+
+import egov.service.BoardVO;
+import egov.service.CommaVO;
+
+
+
+
+@Controller
+public class CommaController {
+
+	
+	
+	/** MappingJackson2JsonView */
+	@Resource(name = "jsonView")
+	protected MappingJackson2JsonView jsonView;
+	
+
+		/*my section*/
+	/*==================================================================================================*/
+	@RequestMapping(value="Mypage_Modify.do")
+	   public String Mypage() {
+		
+	      return "comma/Mypage_Modify";
+	   }
+
+	@RequestMapping(value="Login.do")
+	   public String Login() {
+		
+	      return "comma/Login";
+	   }
+	
+	@RequestMapping(value="/LoginOk.do")
+		public String insertComma(CommaVO vo) throws Exception {
+		
+		return "";
+	}
+	
+	
+	
+	@RequestMapping(value="memberSign.do")
+	   public String memberSign() {
+		
+	      return "comma/memberSign";
+	   }
+	@RequestMapping(value="MyPage.do")
+	   public String MyPage() {
+		
+	      return "comma/MyPage";
+	   }
+		/*지역*/
+	/*==================================================================================================*/
+
+	@RequestMapping(value="/Daegu.do")
+	public String Daegu() {
+		return "area/Daegu";
+	}
+	
+	@RequestMapping(value="/Busan.do")
+	public String Busan() {
+		return "area/Busan";
+	}
+	
+	@RequestMapping(value="/Incheon.do")
+	public String Incheon() {
+		return "area/Incheon";
+	}
+	
+	/*축제*/
+	/*============================================================================================= */
+	@RequestMapping(value="/Winterfestival.do")
+	public String Winterfestival() {
+		return "festival/Winterfestival";
+	}
+	
+	@RequestMapping(value="/Fallfestival.do")
+	public String Fallfestival() {
+		return "festival/Fallfestival";
+	}
+	
+	@RequestMapping(value="/Summerfestival.do")
+	public String Summerfestival() {
+		return "festival/Summerfestival";
+	}
+	
+	@RequestMapping(value="/Springfestival.do")
+	public String Springfestival() {
+		return "festival/Springfestival";
+	}
+	
+	/*커뮤니티*/
+	/*==================================================================================================*/
+
+	@RequestMapping(value="/BoardWrite.do")
+	public String BoardWrite() {
+		return "community/BoardWrite";
+	}
+	
+	@RequestMapping(value="/NoticeList.do")
+	public String noticeList() {
+		return "community/NoticeList";
+	}
+	
+}
+
+
+

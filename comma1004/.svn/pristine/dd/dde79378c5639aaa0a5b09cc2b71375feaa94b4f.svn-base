@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<style>
+		.top_display{
+			display: inline-block;
+		}
+		.top_link{
+			overflow: hidden;
+			background-color:#80BCE1;
+			margin-top:20px;
+			text-align: center;
+			margin-left:200px;
+			margin-right:200px;
+		}
+		.top_link a{
+			display: inline-block;
+			margin-bottom:5px;
+		    color: black;
+		    padding: 15px 130px;
+    		text-decoration: none;
+		}
+		.top_link a:hover {
+		    background-color: #80BCE1;
+		    color: #FFFFFF;
+		}
+	</style>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="top_display">
+		<!-- <div>
+			<input type="text" >
+			<a><img></a>
+		</div> -->
+		<div>
+			<a href="#" style="">
+				<img src="/images/basic_form/logo.png">
+			</a>
+		</div>
+	</div>	
+		<br/>
+		<div class="top_link">
+				<a href="#">여행지</a>
+				<a href="#">축제</a>
+				<a href="#">커뮤니티</a>
+				<a href="#">주변여행지</a>
+		</div>
+</body>
+</html>

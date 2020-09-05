@@ -1,0 +1,23 @@
+package egov.service.impl;
+
+import org.springframework.stereotype.Repository;
+import egov.service.CommaVO;
+import egovframework.rte.psl.dataaccess.EgovAbstractDAO;
+
+@Repository("commaDAO")
+public class CommaDAO extends EgovAbstractDAO {
+
+	public String insertMember(CommaVO vo) {
+		System.out.println("test ======= ");
+		return (String) insert("commaDAO.insertMember", vo);
+	}
+
+	public int selectMemberIdcheck(CommaVO vo) {
+		return (int) select("commaDAO.selectMemberIdcheck", vo);
+	}
+
+	public CommaVO selectMemberIdPwdCheck(CommaVO vo) {
+		return  select("commaDAO.selectMemberIdPwdCheck", vo);
+	}
+
+}

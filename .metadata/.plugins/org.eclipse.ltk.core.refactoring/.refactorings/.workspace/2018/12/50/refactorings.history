@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;comma1004/src/main/java/egov/web/CommaController.java&apos;" deleteContents="false" description="Delete resource &apos;comma1004/src/main/java/egov/web/CommaController.java&apos;" element1="/comma1004/src/main/java/egov/web/CommaController.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1544693283358"/>
+</session>

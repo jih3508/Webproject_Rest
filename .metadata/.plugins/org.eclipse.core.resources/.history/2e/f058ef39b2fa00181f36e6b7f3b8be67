@@ -1,0 +1,18 @@
+package egov.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import egov.service.CommaVO;
+import egovframework.rte.psl.dataaccess.EgovAbstractDAO;
+
+@Repository("commaDAO")
+public class CommaDAO extends EgovAbstractDAO {
+	
+	
+	public String insertmember(CommaVO vo){
+		return (String) insert ("commaDAO.insertMember", vo);
+	}
+
+}

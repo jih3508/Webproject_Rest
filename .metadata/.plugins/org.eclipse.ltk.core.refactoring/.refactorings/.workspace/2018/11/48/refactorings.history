@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;comma&apos;" deleteContents="false" description="Delete resource &apos;comma&apos;" element1="/comma" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1543226968920"/>
+</session>

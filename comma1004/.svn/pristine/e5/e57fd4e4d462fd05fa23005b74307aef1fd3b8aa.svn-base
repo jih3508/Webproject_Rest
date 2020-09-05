@@ -1,0 +1,40 @@
+body {
+width:800px;
+margin:0 auto;
+}
+/* header */
+#header {
+margin:0 0 10px 0;
+padding:10px;
+border:1px solid #000;
+background-color:#CCC;
+width:778px;
+}
+/* Content */
+#container {
+
+}
+#content {
+float:left;
+padding:10px;
+background-color:#CCC;
+border:1px solid #000;
+width:578px;
+margin-bottom:10px;
+}
+/* Sidebar A */
+#sidebar_a {
+float:left;
+padding:10px;
+border:1px solid #000;
+width:178px;
+background-color:#999;
+}
+/* Footer */
+#footer {
+clear:both;
+padding:10px;
+border:1px solid #000;
+background-color:#CCC;
+width:778px;
+}

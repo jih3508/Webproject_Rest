@@ -1,0 +1,10 @@
+package egov.service;
+
+import java.util.List;
+
+public interface CommaService {
+
+	public String insertComma(CommaVO vo) throws Exception;
+	public String insertMember(CommaVO vo) throws Exception;
+	
+}

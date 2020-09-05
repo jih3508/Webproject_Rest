@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color:#80BCE1;
+    margin-top:20px;
+}
+.radio{
+	font-size: 8px;
+}
+.single_modify{
+	margin-top:30px;
+	display:inline-block;
+	margin-left:350px;
+	float:center;
+	border-style:outset;
+	width:30%;
+	height:400px;
+	
+}
+.single_side{
+	margin-top:70px;
+ 	margin-left:150px;
+	display:inline-block;
+ 	float:left;
+ 	border-color:#353535;
+ 	border-style:solid;
+ 	border-width: 2px;
+ 	width:10%;
+	
+
+}
+
+li{
+	color:#0100FF;
+}
+
+.modify_main{
+	margin-top:70px;
+
+}
+
+</style>
+	<p align="center">쉼터 회원정보수정</p><br/>
+	<div>
+
+		<div class="single_modify">
+			<table class="modify_main" align="center">
+				<tr>
+					<td>아이디</td>
+					<td><input type="text" name="title"></td>
+				</tr>
+				<tr margin-top="5px">
+					<td>현재 비밀번호</td>
+					<td><input type="password" name="old_pwd"></td>
+				</tr>
+				<tr margin-top="5px">
+					<td>새 비밀번호</td>
+					<td><input type="password" name="new_pwd"></td>
+				</tr>
+				<tr margin-top="5px">
+					<td>새 비밀번호 확인</td>
+					<td><input type="password" name="new_pwd_comfirm"></td>
+				</tr>
+				<tr margin-top="5px">
+					<td>이메일</td>
+					<td><input type="text" name="e-mail"></td>
+				</tr>
+				<tr margin-top="5px">
+					<td>생년월일</td>
+					<td><input type="text" name="e-mail"></td>
+				</tr>
+				<tr margin-top="10px">
+					<td class="radio"><input type="checkbox" name="agreement">이용약관 동의(필수)</td>
+					<td class="radio"> <input type="checkbox" name="single_information">개인정보 제공에 동의(필수)</td>
+				</tr>
+				</tr>
+				<tr margin-top="10px">
+					<td><button type="button">저장</button></td>
+					<td> <button type="reset">취소</button></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="single_side">
+			<p>마이페이지</p>
+        	<ul>
+          	<li>회원 정보수정</li>
+          	<li>작성글 보기</li>
+        	</ul>	
+		</div>
+	<div>
+</body>
+</html>

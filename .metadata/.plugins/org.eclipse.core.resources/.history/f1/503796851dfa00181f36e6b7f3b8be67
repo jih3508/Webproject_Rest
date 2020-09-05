@@ -1,0 +1,21 @@
+package egov.service;
+
+import java.util.List;
+
+public interface CommaService {
+
+
+
+	public int selectidcheck(CommaVO vo) throws Exception;
+
+
+
+	public String insertMember(CommaVO vo);
+
+
+	
+
+
+
+
+}

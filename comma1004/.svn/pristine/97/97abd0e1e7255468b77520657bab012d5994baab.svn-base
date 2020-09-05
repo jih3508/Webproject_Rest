@@ -1,0 +1,202 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+}
+a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+a:visited {
+	color: #666;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:active,
+a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+ 
+#jb-container {
+   width: 1000px;
+   margin: 10px auto;
+   padding: 5px;
+   border: 1px solid #bcbcbc;
+}
+#jb-header {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 5px;
+	border: 0px solid #bcbcbc;
+}
+
+#jb-sidebar {
+  width: 20%;
+  height:100%;
+  padding: 1px;         /* 내부간격 */
+  margin-bottom: 5px;   /* 외부간격 */
+  float: left;
+  border: 2px solid #41719C;
+  /* border: 0px solid #bcbcbc; */
+}
+
+#jb-content {
+  width: 78%;
+  padding: 0 10 0 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  float: right;
+  border: 0px solid #bcbcbc;
+  font-size: 18px;
+  
+}
+#jb-footer {
+  clear: both;
+  padding: 10px;
+  border: 1px solid #bcbcbc;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.div_main_left {
+	width: 480px;
+	padding: 5px;
+	float: left;
+	border: 1px solid #bcbcbc;
+}
+.div_main_rsch {
+	width: 200px;
+	padding: 5px;
+	float: right;
+	border: 0px solid #bcbcbc;
+}
+
+.div_logo {
+	vertical-align:middle;
+	width:20%;
+	height:100px;
+	margin: 0 0 0 0px;
+	padding-top:15px;
+	float: left;
+	border: 0px solid #bcbcbc;
+}
+
+.div_topmenu {
+	width:77%;
+	margin: 0 0 0 0px;
+	padding: 0px;
+	float: right; 
+	border: 0px solid #bcbcbc;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: 9pt/100% Arial, Helvetica, sans-serif;
+  padding: .5em 2em .55em;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,.2,.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,.2,.2);
+  box-shadow: 0 0px 0px rgba(0,0,0,.2);
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+ table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:15px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+table tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+table tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+table tr{
+	text-align: center;
+	padding-left:20px;
+}
+table tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table tr td {
+	padding:12px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td{
+	border-bottom:0;
+}
+table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}
+ 
+ 
+ 
+ 

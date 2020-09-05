@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="CommaSpace">
+
+	<typeAlias  alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>
+	<typeAlias  alias="commaVO" type="egov.service.CommaVO"/>
+<!-- 	<typeAlias  alias="boardVO" type="egov.service.BoardVO"/> -->
+	
+	<insert id="commaDAO.insertMember">	
+	INSERT INTO MEMBER ( ID,
+						PWD,
+						NAME,
+						EMAIL,
+						BIRTHDAT,
+						MANAGER_NO)
+				VALUES ( #ID#,
+						#PWD#,
+						#NAME#,
+						#EMAIL#,
+						#BRITHDAT#,
+						'0' )
+	</insert>	
+
+</sqlMap>
+
+
+
+
+
+
+
+
+
+

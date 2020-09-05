@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="CommaSpace">
+	<typeAlias  alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/>
+	<typeAlias  alias="CommaVO" type="egov.service.CommaVO"/>
+	<select id="commaDAO.selectidcheck" resultClass="java.lang.Integer">
+		
+		SELECT count(*)
+		FROM member 
+		WHERE ID = #ID#
+	
+	</select>
+
+</sqlMap>

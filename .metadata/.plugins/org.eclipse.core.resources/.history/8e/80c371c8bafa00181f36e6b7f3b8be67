@@ -1,0 +1,9 @@
+package egov.service;
+
+
+
+public interface CommaService {
+
+	public String insertMember(CommaVO vo) throws Exception;
+	
+}

@@ -1,0 +1,144 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 국제관광선체험관 </title>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+
+</head>
+
+<body>
+<div id="jb-container"> 
+
+	<div id="jb-header">
+
+<%-- <%@ include file="/include/topmenu.jsp" %>  --%>
+
+	</div>
+ 	
+ 	
+ 	<div id="jb-content"style="width:100%;">
+
+
+		<div style="float: center;">	
+			<div style="border:2px solid #41719C; text-align:center"></div>
+				<div style="text-align:center; font-size:40px">국제관광선체험관(불교문화관)</div>
+			<div style="border:2px solid #41719C; text-align:center"></div>
+		</div>
+			
+			
+				<div class="sub_title" style="text-align:center">
+                     <p>주소> 대구광역시 동구 동화사 1길 </a></p>                   
+                     <p>전화번호> 053-980-7973</a></p>                 
+	                 <p>홈페이지> <a href="http://www.donghwasa.net" target="_blank" title="새창열기">http://www.donghwasa.net</a></p>	                
+                 </div>
+                 
+				<div class="Explan_p">
+					   <div style="border:1px solid #41719C; text-align:center"></div>
+	                   <p>
+	                     "동양의 정신문화와 선, 명상, 수행을 만나는 시간 
+						  ‣ 동화사의 상징인 약사여래대불 지하에 조성된 선(禪) 테마 체험관 
+						  ‣ 전통 선(禪)수행관, 초조대장경 밀레니엄관, 선(禪)문화관, 천년도량의 터 팔공산, 정진의 터, 명상의 터, 다도의 터 등 7가지 테마로 구성
+						  ‣ 동화사를 찾는 내,외국인 여행객에게 글로벌 트렌드인 선, 명상, 수행 등을 소개"	
+	                   </p>
+	            </div>
+	            
+	            
+	            <table class="Explan_table_list">
+                   <tbody style="float: center;">
+						<tr style="border-bottom: 1px solid #C1C5CB; text-align:center">
+			                 <th scope="row" text-align:center>이용시간</th>
+			                 <td>하절기 10:00~17:00, 동절기 10:00~16:00</td>
+			            </tr>
+			    		<tr style="border-bottom: 1px solid #C1C5CB; text-align:center">
+			                  <th scope="row" text-align:center>이용요금</th>
+			                  <td>어른(19~64세) 2,500원, 청소년(7~18세), 군인 1500원, 어린이 1,000원</td>
+			            </tr>
+					</tbody>
+                </table>
+                
+                
+                
+                <div class="map">
+                   <h2>길찾기</h2>
+	                   <div class="map_btn_list">
+		                    <p "font-size:20px">지역간 대중교통정보
+			                    <a href="https://www.kobus.co.kr/main.do" target="_blank" title="새창열기"><span class="color-b">버스편</span></a>
+			                    <a href="http://info.korail.com/mbs/www/index.jsp" target="_blank" title="새창열기"><span class="color-b">열차편</span></a>
+			                    <a href="http://www.airport.co.kr/" target="_blank" title="새창열기"><span class="color-b">항공편</span></a></p>
+		                    <p> 지역내 대중교통정보 
+		                    	<a href="http://businfo.daegu.go.kr/ba/index/index.do?locale=ko" target="_blank" title="새창열기"><span class="color-d">시내버스</span></a>
+		                    	<a href="http://www.dtro.or.kr/" target="_blank" title="새창열기"><span class="color-d">지하철</span></a></p>
+	                   </div>
+	                   
+                  <!--  <div class="map_api">
+                     <div id="Map" class="iframe" style="position: relative; overflow: hidden; background: url(&quot;https://i1.daumcdn.net/dmaps/apis/loading_n.png&quot;);">
+                     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ab77459dba4f739e0f294dd9ad1e1ca5&amp;libraries=services"></script><script charset="UTF-8" src="https://t1.daumcdn.net/mapjsapi/js/main/4.0.9/kakao.js"></script><script charset="UTF-8" src="https://s1.daumcdn.net/svc/attach/U03/cssjs/mapapi/libs/1.0.1/1515130215283/services.js"></script>
+                 	<div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; touch-action: none; cursor: url(&quot;https://i1.daumcdn.net/dmaps/apis/cursor/openhand.cur.ico&quot;) 7 5, url(&quot;https://i1.daumcdn.net/dmaps/apis/cursor/openhand.cur.ico&quot;), default;"><div style="position: absolute;"><div style="position: absolute; z-index: 0;"></div><div style="position: absolute; z-index: 1; left: 0px; top: 0px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1321/1496.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -245px; top: 148px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d/1810uis/L3/1321/1497.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 11px; top: 148px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d/1810uis/L3/1321/1498.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 267px; top: 148px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d/1810uis/L3/1321/1499.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 523px; top: 148px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1321/1500.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 779px; top: 148px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1322/1496.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -245px; top: -108px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d/1810uis/L3/1322/1497.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 11px; top: -108px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d/1810uis/L3/1322/1498.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 267px; top: -108px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d/1810uis/L3/1322/1499.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 523px; top: -108px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1322/1500.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 779px; top: -108px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1323/1496.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -245px; top: -364px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map1.daumcdn.net/map_2d/1810uis/L3/1323/1497.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 11px; top: -364px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map2.daumcdn.net/map_2d/1810uis/L3/1323/1498.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 267px; top: -364px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map3.daumcdn.net/map_2d/1810uis/L3/1323/1499.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 523px; top: -364px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img src="https://map0.daumcdn.net/map_2d/1810uis/L3/1323/1500.png" alt="" draggable="false" style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 779px; top: -364px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"></div><div style="position: absolute; z-index: 1;"></div><div style="width: 955px; height: 300px; position: absolute; z-index: 1;"></div><div style="position: absolute; z-index: 1;"><svg version="1.1" style="stroke: none; stroke-dashoffset: 0.5; stroke-linejoin: round; fill: none; transform: translateZ(0px); position: absolute; width: 4775px; height: 1500px; left: -1910px; top: -600px;" viewBox="0 0 4775 1500"><defs></defs></svg></div><div style="position: absolute; z-index: 1; width: 100%; height: 0px;"><div style="position: absolute; z-index: 0; white-space: nowrap; margin: -154px 0px 0px -127px; left: 477px; top: 150px;"><div class="overlay_info">    <a href="http://map.daum.net/link/map/35.99137,128.7044" target="_blank"><strong>국제관광선체험관(불교문화관)</strong></a>    <div class="desc">        <span class="address">대구광역시 동구 동화사 1길 </span>    </div></div></div></div></div></div><div style="position: absolute; cursor: default; z-index: 1; white-space: nowrap; font: 11px tahoma, sans-serif; color: rgb(85, 85, 85); left: 7px; bottom: 5px;"><a target="_blank" href="http://map.daum.net/" title="Daum 지도로 보시려면 클릭하세요." style="float: left; width: 38px; height: 17px; cursor: pointer;"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/m_bi.png" alt="Daum 지도로 이동" style="width: 37px; height: 18px; border: none;"></a><div style="color: rgb(0, 0, 0); text-align: center; font-size: 10px; margin: 0px 2px; float: left; width: 52px;"><div style="color: rgb(0, 0, 0);">50m</div><div style="position: relative; overflow: hidden; height: 8px; margin-top: -4px;"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/scalebar.png" alt="" style="position: absolute; width: 164px; height: 40px; max-width: none; top: 0px; left: -82px;"></div></div><div style="font: 11px tahoma, sans-serif; float: left; margin: 3px 2px 0px;">© Kakao<span></span></div></div><div style="cursor: auto; position: absolute; z-index: 2; left: 0px; top: 0px;"><div style="width: 90px; height: 31px; position: absolute; left: 862px; top: 3px;"><div draggable="false" style="float: left; cursor: default; width: 38px; height: 26px; user-select: none; -webkit-user-drag: none; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) 0px 0px / 515px 26px no-repeat; position: absolute; left: 0px; top: 0px;"></div><div draggable="false" style="float: left; cursor: pointer; width: 54px; height: 26px; user-select: none; -webkit-user-drag: none; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -38px 0px / 515px 26px no-repeat; position: absolute; left: 38px; top: 0px;"></div></div><div style="width: 22px; position: absolute; left: 930px; top: 37px;"><div draggable="false" style="float: left; cursor: pointer; width: 20px; height: 20px; user-select: none; -webkit-user-drag: none; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -264px 0px / 515px 26px no-repeat;"></div><div style="overflow: visible; cursor: pointer; position: relative; float: left; margin: 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -304px 0px / 515px 26px repeat-y; transition: height 0.1s ease 0s; width: 20px; height: 126px;"><div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 4px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 13px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 22px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 31px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 40px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 49px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 58px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 67px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 76px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 85px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 94px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 103px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 112px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -364px 0px / 515px 26px; left: 6px; top: 121px;"></div></div><div style="position: absolute; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -324px 0px / 515px 26px; overflow: hidden; margin-left: 1px; transition: height 0.1s ease 0s; width: 16px; height: 22px;"><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 4px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 13px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 22px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 31px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 40px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 49px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 58px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 67px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 76px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 85px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 94px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 103px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 112px;"></div><div style="position: absolute; width: 6px; height: 1px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -358px 0px / 515px 26px; left: 5px; top: 121px;"></div></div><div style="cursor: row-resize; overflow: hidden; position: absolute; margin: -5px 0px 0px; width: 18px; height: 11px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -340px 0px / 515px 26px; transition: top 0.1s ease 0s; left: 0px; top: 22px;"></div></div><div draggable="false" style="float: left; cursor: pointer; width: 20px; height: 20px; user-select: none; -webkit-user-drag: none; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -284px 0px / 515px 26px no-repeat;"></div><div style="position: absolute; margin: 20px 0px 0px -30px; background-size: 515px 26px; width: 30px; height: 126px; display: none;"><div style="position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -370px 0px / 515px 26px; left: 0px; top: 13px;"></div><div style="position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -399px 0px / 515px 26px; left: 0px; top: 40px;"></div><div style="position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -428px 0px / 515px 26px; left: 0px; top: 76px;"></div><div style="position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -457px 0px / 515px 26px; left: 0px; top: 94px;"></div><div style="position: absolute; width: 29px; height: 15px; margin: -6px 0px 0px; background: url(&quot;https://t1.daumcdn.net/localimg/localimages/07/mapjsapi/sprite3.png&quot;) -486px 0px / 515px 26px; left: 0px; top: 112px;"></div></div></div></div></div>
+                   </div> -->
+                   
+                   <form id="formTravel" onsubmit="return submitTravel();" action="/kor/attractTravel.do" method="post">
+                   		<input type="hidden" id="endlat" name="endlat" value="35.99137">
+						<input type="hidden" id="endlng" name="endlng" value="128.7044">
+						<input type="hidden" id="SUBJECT1" name="SUBJECT1" value="국제관광선체험관(불교문화관)">
+						<input type="hidden" value="attract" id="BRD_ID" name="BRD_ID">
+						<input type="hidden" value="21" id="IDX" name="IDX">
+						<input type="hidden" value="21" id="seIDX" name="seIDX">
+						<input type="hidden" value="4" id="grIDX" name="grIDX">
+                     <table>
+                     <!-- <caption>국제관광선체험관(불교문화관) 길찾기 검색</caption> -->
+                     <tbody>
+                       <tr>
+                         <td><span>길찾기 검색</span></td>
+                         
+                        <td style="position:relative; padding-left:200px;">
+                         	<button type="button" style="position:absolute; top:0; left:0; width:70px; height:25px; border-radius:5px; border:0; background:#333; color:#fff;" onclick="fn_findAddress();" title="새창">주소 찾기</button>
+                         	<select id="start" name="start" title="출발지">
+                             <option value="출발지">출발지</option>
+                             <!-- <option value="etc">주소 입력</option> -->
+                             <option value="대구공항">대구공항</option>
+                             <option value="동대구역">동대구역</option>
+                             <option value="대구역">대구역</option>
+                             <option value="동화사">팔공산 동화사</option>
+                             <option value="동대구">동대구 IC</option>
+                             <option value="서대구">서대구 IC</option>
+                             <option value="남대구">남대구 IC</option>
+                             <option value="북대구">북대구 IC</option>
+                             <option value="화원">화원 IC</option>
+                             <option value="수성">수성 IC</option>
+                           </select>
+						<input type="hidden" id="add" name="add" value="">
+						<input type="hidden" id="addressLat" name="addressLat" value="">
+						<input type="hidden" id="addressLng" name="addressLng" value="">
+                           <div class="arrow">→</div>
+                           <!-- <button type="button" name="button" class="long_button" title="도착지">국제관광선체험관(불교문화관)</button> -->
+                           <input type="text" name="button" disabled="" class="long_button" title="도착지" value="국제관광선체험관(불교문화관)">
+                         </td>
+                         <td><button type="submit" class="load">길찾기</button></td>
+                       </tr>
+                       </tbody>
+                     </table>
+                   </form>
+                 </div>
+
+
+
+	</div>  <!--"jb-content" -->
+	
+<!-- 	
+	<div id="jb-sidebar">
+        <ul>
+            
+        </ul>
+	</div> -->
+	
+	
+	<div id="jb-footer" >
+        <p><img src="\images\logo.png" width="60px" height="40px"/>김영준 김하나 오다혜 이나연 조익현</p>
+	</div>
+	
+</div>	<!--"jb-container" -->
+  </body>
+</html>

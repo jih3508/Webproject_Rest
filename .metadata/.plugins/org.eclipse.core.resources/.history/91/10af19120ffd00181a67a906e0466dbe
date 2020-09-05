@@ -1,0 +1,15 @@
+package egov.service;
+
+
+
+public interface CommaService {
+
+	public String insertMember(CommaVO vo) throws Exception;
+
+	public int selectMemberIdcheck(CommaVO vo) throws Exception;
+
+	public int selectMemberIdPwdCheck(CommaVO vo) throws Exception;
+
+
+	
+}

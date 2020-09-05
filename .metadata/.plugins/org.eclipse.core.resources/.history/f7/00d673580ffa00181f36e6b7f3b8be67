@@ -1,0 +1,16 @@
+package egov.service;
+
+import java.util.List;
+
+public interface CommaService {
+
+	static CommaVO selectcheck(CommaVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+
+
+}

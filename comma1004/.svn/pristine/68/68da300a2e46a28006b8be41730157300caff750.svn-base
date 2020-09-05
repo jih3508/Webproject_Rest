@@ -1,0 +1,135 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+	<style>
+		.side_menu a{
+			text-decoration: none;
+			color:black;
+			 
+		}
+		.side_menu a: hover{
+			color: #41719C;
+		}
+		.side_menu{
+			width:60%;
+			margin-bottom:1000px; 
+			margin-right:50px; 
+			border-style:solid; 
+			border-width:2px;
+			border-color:  #80BCE1;
+			 
+		}
+	</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 대구 여행지 </title>
+
+</head>
+
+<body>
+	 
+	  <%@ include file="/include/Top_Menu.jsp" %>
+ 	
+ 	<div width="100%">
+	 	<table border="0"  style="margin-left:200px;">
+	 		<tr>
+	 			<td width="23%" align="center">
+	 				<div class="side_menu">
+				          <p><a href="/Seoul.do">서울</a></p>
+				          <p><a href="/Busan.do">부산</a></p>
+				          <p><a href="/Daegu.do">대구</a></p>
+				          <p><a href="/Incheon.do">인천</a></p>
+				          <p><a href="/Gwangju.do">광주</a></p>
+				          <p><a href="/Daejeon.do">대전</a></p>
+				          <p><a href="/Ulsan.do">울산</a></p>
+				          <p><a href="/Gyeonggido.do">경기도</a></p>
+				          <p><a href="/Gangwondo.do">강원도</a></p>
+				          <p><a href="/Chungcheongdo.do">충청도</a></p>
+				          <p><a href="/Jeollado.do">전라도</a></p>
+				          <p><a href="/Gyeongsangdo.do">경상도</a></p>
+				          <p><a href="/Jejudo.do">제주도</a></p>
+				     </div>
+	 			</td>
+		 		<td>
+					<div>	
+						<div style="border:3px solid #41719C; text-align:center">
+						힐링여행 ː 팔공산으로 떠나는 휴식여행
+						</div>
+						<p> <a href="https://bit.ly/2Q2pShN" target = "_blank"">
+							<img src="\images\area\힐링1.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2zwWs0O" target = "_blank"">
+							<img src="\images\area\힐링2.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2QnoEgn" target = "_blank"">
+							<img src="\images\area\힐링3.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2G2gvtV" target = "_blank"">
+							<img src="\images\area\힐링4.PNG" width="250px" height="350px" /></a>
+						</p>
+					</div>
+					
+					<div>	
+						<div style="border:3px solid #41719C; text-align:center">
+						야경여행 ː 별빛 내린 대구의 추억
+						</div>
+						<p> <a href="https://bit.ly/2RkGZrz" target = "_blank"">
+							<img src="\images\area\야경1.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2rdOKnV" target = "_blank"">
+							<img src="\images\area\야경3.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2QqeRWM" target = "_blank"">
+							<img src="\images\area\야경2.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2SkxUz3" target = "_blank"">
+							<img src="\images\area\야경4.PNG" width="250px" height="350px" /></a>
+						</p>
+					</div>
+					
+					<div">	
+						<div style="border:3px solid #41719C; text-align:center">
+						식도락여행 ː 맛의 천국으로 초대!
+						</div>
+						<p> <a href="https://bit.ly/2Q5tRd8" target = "_blank"">
+							<img src="\images\area\식도락1.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2zwQZao" target = "_blank"">
+							<img src="\images\area\식도락3.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2FYJpuW" target = "_blank"">
+							<img src="\images\area\식도락2.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2RpuNFZ" target = "_blank"">
+							<img src="\images\area\식도락4.PNG" width="250px" height="350px" /></a>
+						</p>
+					</div>
+					
+					<div>	
+						<div style="border:3px solid #41719C; text-align:center">
+						드라마여행 ː 우리가 만드는 로맨틱 대구
+						</div>
+						<p><a href="https://bit.ly/2BIiK16" target = "_blank"">
+							<img src="\images\area\드라마1.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2DKUIUB" target = "_blank"">
+							<img src="\images\area\드라마3.PNG" width="250px" height="350px" /></a>
+							<a href="https://bit.ly/2KI4E2A" target = "_blank"">
+							<img src="\images\area\드라마4.PNG" width="250px" height="350px" /></a>						
+							<a href="https://bit.ly/2PbKfDB" target = "_blank"">
+							<img src="\images\area\드라마2.PNG" width="250px" height="350px" /></a>
+						</p>
+					</div>  <!--"jb-content" -->
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+
+	
+	<br/>
+	
+	<div style="margin-left:200px;">
+        <p><img src="\images\logo.png" width="60px" height="40px"/>김영준 김하나 오다혜 이나연 조익현</p>
+	</div>
+
+  </body>
+</html>
+
+
+

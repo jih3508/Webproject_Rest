@@ -1,0 +1,204 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<style>
+ 		.memberbutton {
+			border-color: #41719C;
+			background-color:#80BCE1; 
+			margin-bottom:5px;
+			height:30px;
+			padding: 0px 5px; 
+		}
+	
+	
+		.main{
+			border-style:solid;
+			border-color: #41719C;
+			border-width:2px;
+			width:27%;
+
+			text-align:center;
+			
+			} 
+		.main table{
+			margin-top:10px;
+			width:80%;
+			text-align:left; 
+			/* height: 350px;  */
+		}
+
+		.main a{
+			text-decoration:none; 
+		}
+		.title {
+		    font-family: verdana;
+		    font-size: 15px;
+		    color:#80BCE1;
+		    margin-top:20px;
+
+		}
+		
+		.check{
+			color:black; 
+			border-style:solid; 
+			border-width:1px; 
+			border-radius:2px;
+			width:90%; 
+			text-align:center; 
+		}
+		.check a:hover{
+			color:blue;
+		}
+	</style>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="/script/jquery-1.12.4.js"></script>
+<script src="/script/jquery-ui.js"></script>
+<title>회원 가입</title>
+
+</head>
+	<script>
+	$(function(){
+	$("#sign").click(function(){
+		if($("#id").val() == "") {
+			alert("id을 입력해주세요.");
+			$("#id").focus();
+			return;
+		}
+		if($("#pwd").val() == "") {
+			alert("암호를 입력해주세요.");
+			$("#pwd").focus();
+			return;
+		}else{
+			if($("#pwd").val() == $("pwd_comfirm")){
+				alert("암호가 일치하지 앖습니다..");
+				$("#pwd").focus();
+				$("#pwd_comfirm").focus();
+				return;
+			}
+			}
+		if($("#name").val() == "") {
+			alert("이름을 입력해주세요.");
+			$("#name").focus();
+			return;
+		}
+		if($("#email").val() == "" || $("#domain_site").val() == "no_select" ) {
+			alert("이메일 입력해주세요.");
+			$("#email").focus();
+			$("#domain_site").focus();
+			return;
+		}
+		if(confirm("저장하시겠습니까?")) {	
+			var str= $("#email").val()+"@"+ $("#domain_site").val();
+	 		var formData = $("#frm").serialize();
+			$("#email").val(str);
+			$.ajax({
+				type: "POST",
+				data: formData,
+				url: "/memberave.do",
+				dataType: "json",
+				
+				success: function(data) {
+					if(data.result == "ok") {
+						alert("회원가입 되었습니다.");
+						location.href = "/Login.do";
+					} else {
+						alert("저장 실패했습니다. 다시 시도해 주세요.");
+					}
+				},
+				error: function () {
+					alert("오류발생 ");
+				}
+			}); 
+		}
+	});
+});
+
+</script>
+<body>
+	<%@ include file="/include/Top_Menu.jsp" %> 
+
+
+	 <div align="center">
+		<p class="title">쉼표 회원 가입</p>	
+		<div class="main">
+		<form name="member" id="member" method="post">
+			<table border="0" align="center" height="350px">
+				<colgroup>
+					<col width="35%"/>
+					<col width="25%"/>
+					<col width="25%"/>
+					<col width="15%"/>
+				</colgroup>
+				<tr>
+					<td>아이디</td>
+					<td><input type="text" name="id" id="id" style="width:97%;"></td>
+					<td>
+					<a href="#">
+					<p class="check">중복체크</p>
+					</a>
+					
+					</td>
+				</tr>
+				<tr>
+					<td>비밀번호</td>
+					<td><input type="password" name="pwd" id="pwd" style="width:97%;"></td>
+				</tr>
+				<tr>
+					<td>비밀번호 확인</td>
+					<td><input type="password" name="pwd_comfirm" id="pwd_comfirm" style="width:97%;"></td>
+				</tr>
+				<tr>
+					<td algin="center">이름</td>
+					<td><input type="text" name="name" id="name" style="width:97%;"></td>
+				</tr>
+				<tr>
+					<td>이메일</td>
+					<td>
+					<input type="text" name="email" id="email" style="width:97%;">
+					</td>
+					<td colspan="2">
+						@
+						<select name="domain_site" id="domain_site" style="width:70%;">
+						  <option value="no_select" selected="selected">선택하시오</option> 	
+						  <option value="naver.com">naver.com</option>
+						  <option value="daum.net">daum.net</option>
+						  <option value="yahoo.com">yahoo.com</option>
+						  <option value="gmail.com">gmail.com</option>
+						  <option value="nate.com">nate.com</option>
+						  <option value="hanmail.net">hanmail.net</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>생년월일</td>
+					<td>
+						<input type="date" name="birthday" id="birthday" style="width:97%;">
+					</td>
+				</tr>
+			</table>
+
+			<div>
+				<table align="center" border="0">
+				<tr style="font-size:13px; ">
+					<td>
+						<input type="checkbox"> 이용약관에 동의(필수)
+					</td>
+					<td>
+						<input type="checkbox"> 개인정보 제공에 동의(필수)
+					</td>
+				</tr>
+				</table>
+			</div>
+			<br/>
+			<input type="button" name="sign" id="sign" value="회원가입" class="memberbutton">
+			<!-- <button>회원 가입</button> -->
+			
+			</form>
+		</div>
+	</div>	 
+
+</body>
+</html>

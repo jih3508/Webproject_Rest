@@ -1,0 +1,25 @@
+package egov.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import egov.service.BoardVO;
+import egov.service.CommaVO;
+import egovframework.rte.psl.dataaccess.EgovAbstractDAO;
+
+
+@Repository
+public class CommaDAO extends EgovAbstractDAO {
+
+	public int selectidcheck(CommaVO vo) {
+		// TODO Auto-generated method stub
+		return (int) insert("commaDAO.selectidcheck", vo);
+	}
+
+	public String insertMember(CommaVO vo) {
+
+		return (String) insert("coomaDAO.insertmember", vo);
+	}
+	
+}

@@ -1,0 +1,122 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 가을축제 </title>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/jquery-ui.css">
+<script src="/script/jquery-1.12.4.js"></script>
+<script src="/script/jquery-ui.js"></script>
+
+</head>
+
+<body>
+<div id="jb-container">
+	<div id="jb-header">
+
+<%@ include file="/include/topmenu.jsp" %> 	
+
+	</div>
+ 	
+ 	
+ 	<div id="jb-content">
+
+
+<div style="float: left; ">	
+	<div style="border:3px solid #41719C; text-align:center">
+	가을축제
+	</div> 
+	<p> <img src="\images\festival\가을축제1.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제2.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제3.PNG" width="500px" height="130px" />
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제4.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제5.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제6.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제7.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+<div style="float: left;">	
+	<div style="border:1px solid #41719C; text-align:center">
+	
+	</div>
+	<p> <img src="\images\festival\가을축제8.PNG" width="500px" height="130px" />
+		
+	</p>
+</div>
+
+
+
+	</div>  <!--"jb-content" -->
+	
+	
+	<div id="jb-sidebar">
+        <ul>
+          <li><a href="/Springfestival.do">봄축제</a></li>
+          <li><a href="/Summerfestival.do">여름축제</a></li>
+          <li><a href="/Fallfestival.do">가을축제</a></li>
+          <li><a href="/Winterfestival.do">겨울축제</a></li>
+        </ul>
+	</div>
+	
+	
+	<div id="jb-footer" >
+        <p><img src="\images\logo.png" width="60px" height="40px"/>김영준 김하나 오다혜 이나연 조익현</p>
+	</div>
+</div>
+  </body>
+</html>

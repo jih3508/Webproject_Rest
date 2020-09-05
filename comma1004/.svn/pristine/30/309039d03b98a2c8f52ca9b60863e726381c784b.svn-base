@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<%
+String id = (String)session.getAttribute("SessionMemberId");
+%>
+
+<div style="width:100%;">
+
+	<div class="div_logo">
+		<img src="/images/logo/top-logo.png" style="">
+	</div>
+	<div class="div_topmenu">
+	<table align="center" cellspacing="0">
+		<colgroup>
+			<col width="*"/>
+			<col width="17%"/>
+			<col width="17%"/>
+			<col width="17%"/>
+			<col width="17%"/>
+			<col width="17%"/>
+		</colgroup>
+		<tr>
+			<td><a href="/main.do">홈</a></td>
+	   		<td><a href="/boardList.do">공지사항</a></td>
+	    	<td><a href="/reBoardList.do">답변게시판</a></td>
+	    	<td><a href="/rschList.do">설문만들기</a></td>
+				
+		<%
+		if(id == null) {
+		%>
+	   		<td><a href="/memberReg.do">회원가입</a></td>
+	  		<td><a href="/login.do">로그인</a></td>
+		<%
+		} else {
+		%>
+			<td><a href="/memberDetail.do">회원정보</a></td>
+	  		<td><a href="/logout.do">로그아웃</a></td>
+	
+		<%
+		}
+		%>
+	
+		</tr>
+	</table>
+	</div>
+</div>

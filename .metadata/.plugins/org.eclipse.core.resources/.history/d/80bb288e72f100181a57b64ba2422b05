@@ -1,0 +1,22 @@
+package egov.web;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
+
+import egov.service.BoardService;
+
+@Controller
+public class CommaController {
+
+	@Resource(name = "CommaService")
+	private BoardService commaService;
+	
+	
+	/** MappingJackson2JsonView */
+	@Resource(name = "jsonView")
+	protected MappingJackson2JsonView jsonView;
+	
+	
+}

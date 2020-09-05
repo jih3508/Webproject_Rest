@@ -1,0 +1,92 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+}
+a:link {
+	color: #000000;
+	font-weight: bold;
+	text-decoration:none;
+}
+a:visited {
+	color: #000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:active,
+a:hover {
+	color: #41719C;
+	color: #41719C
+	text-decoration:none;
+}
+ 
+#jb-container {
+   width: 1000px;
+   margin: 10px auto;
+   padding: 5px;
+   border: 1px solid #bcbcbc;
+}
+#jb-header {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 0px solid #bcbcbc;
+}
+
+#jb-sidebar {
+  width: 20%;
+  height:100%;
+  padding: 1px;         /* 내부간격 */
+  margin-bottom: 5px;   /* 외부간격 */
+  float: left;
+  border: 2px solid #41719C;
+  font-color: ;
+}
+
+#jb-content {
+  width: 78%;
+  padding: 0 10 0 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  float: right;
+  border: 0px solid #bcbcbc;
+  font-size: 18px;
+  
+}
+#jb-footer {
+  clear: both;
+  padding: 10px;
+  border: 1px solid #bcbcbc;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.div_main_left {
+	width: 480px;
+	padding: 5px;
+	float: left;
+	border: 1px solid #bcbcbc;
+}
+.div_main_rsch {
+	width: 200px;
+	padding: 5px;
+	float: right;
+	border: 0px solid #bcbcbc;
+}
+
+.div_logo {
+	vertical-align:middle;
+	width:20%;
+	height:100px;
+	margin: 0 0 0 0px;
+	padding-top:15px;
+	float: left;
+	border: 0px solid #bcbcbc;
+}
+
+.div_topmenu {
+	width:77%;
+	margin: 0 0 0 0px;
+	padding: 0px;
+	float: right; 
+	border: 0px solid #bcbcbc;
+}
