@@ -8,6 +8,10 @@
 ### DB 테이블 구조
 #### ER 다이어그램
 ![ER 다이러그램](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EA%B4%80%EA%B3%84.png)
+
+#### 회원 테이블
+![회원 테이블](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EA%B7%B8%EB%A6%BC1.png)
+#####  회원 테이블 DDL SQL
 ```
 create table Member(
 ID varchar(20) not null,
@@ -17,10 +21,6 @@ e-mail varchar(40),
 primary key(ID) 
 set 
 );
-```
-#### 회원 테이블
-![회원 테이블](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EA%B7%B8%EB%A6%BC1.png)
-```
 ```
 #### 게시판 테이블
 ![게시판 테이블](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EA%B2%8C%EC%8B%9C%ED%8C%90Table.png)
