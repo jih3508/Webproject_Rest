@@ -24,6 +24,18 @@ set
 ```
 #### 게시판 테이블
 ![게시판 테이블](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EA%B2%8C%EC%8B%9C%ED%8C%90Table.png)
+##### 게시판 테이블 DDL SQL
+```
+create table board(
+B-code int not null
+title varchar(50) not null,
+name vachar(4) not null,
+content varchar(200),
+hit int,
+rdate date,
+primary key(B-code)
+)
+```
 #### 댓글 테이블
 ![댓글 테이블](https://github.com/jih3508/Webproject_Rest/blob/master/DB%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EA%B5%AC%EC%A1%B0/%EB%8C%93%EA%B8%80%20%ED%83%9C%EC%9D%B4%EB%B8%94.png)
 #### GPS 테이블
