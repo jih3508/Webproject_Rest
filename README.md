@@ -1,6 +1,6 @@
 # Team Webproject_Rest
 ## 개발 도구
-### Spring Farmework, JSP
+### Spring Farmework, JSP, JQuery, MyBatis
 ### DB: Oracle DB
 ### JAVA, JavaScript
 
@@ -73,7 +73,7 @@ function idcheck(){
 }
 ```
 #### Controller
-```
+``` 
 /*id 중복확인*/
 	@RequestMapping(value="/idcheck.do")
 	@ResponseBody
@@ -104,4 +104,28 @@ function idcheck(){
 	</select>
 ```
 ### 회원 
+
+#### Controller
+``` Java
+@RequestMapping(value="/memberSave.do")
+	@ResponseBody
+	public Map<String,Object> insertMember (
+			HttpServletResponse response,
+			CommaVO vo) throws Exception {
+		System.out.println("컨트롤 1");
+		Map<String, Object> map = new HashMap<String, Object>();
+		
+		String result = "";
+		
+		 System.out.println(vo.getId()+" "+ vo.getPwd()+" "+vo.getEmail()+" "+vo.getBirthDay()+" "+vo.getName());	 
+		/* 저장 */
+		result = commaService.insertMember(vo);
+		 System.out.println("컨트롤 2");
+		if(result==null)  result = "ok";
+		map.put("result", result);
+		 System.out.println("컨트롤3");
+		return map;
+	}
+
+```
 
