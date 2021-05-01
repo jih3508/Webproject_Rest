@@ -1,6 +1,6 @@
 # Team Webproject_Rest
 ## 개발 도구
-### Spring Farmework, JSP, JQuery, MyBatis
+### Spring, JSP, JQuery, MyBatis
 ### DB: Oracle DB
 ### JAVA, JavaScript
 
