@@ -3,6 +3,7 @@
 ### Spring, JSP, JQuery, MyBatis
 ### DB: Oracle DB
 ### JAVA, JavaScript
+### SVN
 
 ---
 ### DB 테이블 구조
